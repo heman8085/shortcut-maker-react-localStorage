@@ -1,0 +1,23 @@
+/* Styles for the modal container */
+.modal {
+  position: fixed; /* Position the modal relative to the viewport */
+  z-index: 1; /* Set the z-index to make sure it's above other content */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scrolling if content exceeds viewport */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+}
+
+/* Styles for the modal content */
+.modal-content {
+  background-color: #fefefe; /* White background */
+  margin: 15% auto; /* Center the modal vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Set width of modal content */
+  max-width: 600px; /* Max width of modal content */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
